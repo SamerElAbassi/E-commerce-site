@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.navbar {
+  background-color: black !important;
+  height: 10vh;
+}
+.footer {
+  background-color: white;
+  height: 40vh;
+}
+.footerText {
+  color: black;
+}
+.MuiButton-root {
+  border-radius: 0 !important;
+  border-color: black !important;
+  color: black !important;
+}
+.MuiIconButton-root {
+  color: black !important;
+}
+.Mui-selected {
+  background-color: transparent !important;
+}
+.MuiButton-contained {
+  background-color: black !important;
+  color: white !important;
+}
+#imgCarousel.carousel {
+  background-color: black !important;
+}
+.carousel-inner {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+.loginForm {
+  height: 60vh !important;
+}
+.App-header {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.carousel-item > img {
+  width: 80%;
+}
+
+.bg-light {
+  background-color: white !important;
+}
+.nav-link,
+.navbar-brand {
+  color: black !important;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 5rem !important;
+  height: 5rem !important;
+  fill: rgb(90, 90, 41);
+  background-color: yellow;
+  color: black !important;
+}
+.carousel-control-next-icon {
+  justify-content: flex-end !important;
+}
+.carousel-control-prev-icon {
+  justify-content: flex-start;
+}
+.vh-100 {
+  min-height: 100vh;
+}

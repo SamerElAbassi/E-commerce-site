@@ -1,0 +1,9 @@
+INSERT INTO role (role_id, name) VALUES (1,'admin');
+INSERT INTO role (role_id, name) VALUES (2,'user');
+
+INSERT into users (id, username, first_name, last_name, password) VALUES (1,'admin','samer','el abassi','pass');
+INSERT into users (id, username, first_name, last_name, password) VALUES (2,'samer','andreea','esca','pass');
+
+INSERT into user_role (user_role_id, role_id, users_id) VALUES (1,1,1);
+INSERT INTO user_role (user_role_id, role_id, users_id) VALUES (2,2,2);
+
